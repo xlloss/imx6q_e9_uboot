@@ -11,7 +11,7 @@
 #else
     #define MFG_BOOT_CMD "bootz "
 #endif
-
+/*
 #define CONFIG_MFG_ENV_SETTINGS_DEFAULT \
 	"mfgtool_args=setenv bootargs console=${console},${baudrate} " \
 		"rdinit=/linuxrc " \
@@ -28,5 +28,6 @@
         "else " \
             "echo \"Run fastboot ...\"; fastboot 0; "  \
         "fi;\0" \
-
+*/
+#define CONFIG_MFG_ENV_SETTINGS_DEFAULT "version"
 #endif
