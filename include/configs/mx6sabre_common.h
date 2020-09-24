@@ -32,7 +32,7 @@
 #else
 #define CONFIG_ETHPRIME			"FEC"
 #endif
-#define CONFIG_FEC_MXC_PHYADDR		1
+#define CONFIG_FEC_MXC_PHYADDR		0
 
 #define CONFIG_PHYLIB
 #define CONFIG_PHY_ATHEROS
